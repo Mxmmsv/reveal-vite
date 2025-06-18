@@ -16,6 +16,8 @@
     "vite": "^6.3.2"
   },
   "dependencies": {
-    "reveal.js": "^5.2.1"
+    "@tailwindcss/vite": "^4.1.10",
+    "reveal.js": "^5.2.1",
+    "tailwindcss": "^4.1.10"
   }
 }
