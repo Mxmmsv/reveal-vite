@@ -298,6 +298,58 @@
             </div>
           </section>
         </section>
+        <section data-auto-animate>
+          <h2>Thanks for watching!</h2>
+          <div id="meme-container" class="flex flex-col items-center">
+            <img id="meme-img" src="/final-meme.png" alt="final meme" class="rounded-2xl h-100" />
+            <p id="meme-credit" class="text-sm mt-2 text-gray-500">
+              *thanks for meme dudka2 (@Alekseyinshakov) from #academe-week-2024q4
+            </p>
+          </div>
+        </section>
+
+        <script>
+          const memes = [
+            {
+              src: '/final-meme.png',
+              alt: 'final meme',
+              credit: '*thanks for meme dudka2 (@Alekseyinshakov) from #academe-week-2024q4',
+            },
+            {
+              src: '/final-final-meme.png',
+              alt: 'final meme',
+              credit: '*thanks for meme Rita (@margomint) from #academe-week-2024q4',
+            },
+            {
+              src: '/final-noconsistent.png',
+              alt: 'final meme',
+              credit: '*thanks for meme ek-ole (@ek-ole) from #academe-week-2024q4',
+            },
+            {
+              src: '/final-reviewer.png',
+              alt: 'final meme',
+              credit: '*thanks for meme Alexandra (@GSasha9) from #academe-week-2024q4',
+            },
+            {
+              src: '/final-drake.png',
+              alt: 'final meme',
+              credit: '*thanks for meme Alexandra (@GSasha9) from #academe-week-2024q4',
+            },
+            {
+              src: '/final-dis.png',
+              alt: 'final meme',
+              credit: '*thanks for meme natein (@natein) from #academe-week-2024q4',
+            },
+          ];
+
+          let index = 0;
+          setInterval(() => {
+            index = (index + 1) % memes.length;
+            document.getElementById('meme-img').src = memes[index].src;
+            document.getElementById('meme-img').alt = memes[index].alt;
+            document.getElementById('meme-credit').textContent = memes[index].credit;
+          }, 3000);
+        </script>
       </div>
     </div>
 
