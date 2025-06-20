@@ -65,7 +65,6 @@ React, Vite, TypeScript, Tailwind, shadcn/ui, Zustand для состояния,
 ## Слайд 15 —
 ## Слайд 16 — -->
 
-
 ## Слайд 17 — Our team and problems
 
 Мы оказались отличной командой
